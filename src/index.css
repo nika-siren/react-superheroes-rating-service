@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,400;0,500;1,400&display=swap');
+
+body {
+  margin: 0;
+  font-family: "Montserrat Alternates", sans-serif;
+
+  color: white;
+  background-color: rgb(35, 35, 65);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Montserrat Alternates',
+    monospace;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 100px;
+  padding-left: 50px
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+  gap: 20px;
+  /*min10px max40px*/
+  padding: clamp(0.625rem, 0.323rem + 2.419vw, 2.5rem);
+}

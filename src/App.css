@@ -1,0 +1,12 @@
+.hero {
+  background-color: rgb(78, 78, 146);
+  padding: 20px;
+  min-height: 770px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.hero img {
+  max-width: 100%;
+  border-radius: 10px;
+}
