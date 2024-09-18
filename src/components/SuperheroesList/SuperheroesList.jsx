@@ -1,6 +1,6 @@
 import React from "react";
-import Superhero from "./Superhero";
-import superheroesData from "./data.json";
+import Superhero from "../Superhero/Superhero";
+import superheroesData from "../../data.json";
 
 const SuperheroesList = () => {
   return (

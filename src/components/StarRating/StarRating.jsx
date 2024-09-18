@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { FaStar } from "react-icons/fa";
-import "./Superhero.css";
+import "../Superhero/Superhero.css";
 import "./StarRating.css";
 
 function StarRating() {

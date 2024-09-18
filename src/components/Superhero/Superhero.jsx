@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Superhero.css";
-import StarRating from "./StarRating";
+import StarRating from "../StarRating/StarRating";
 
 const Superhero = ({ superhero }) => {
   return (

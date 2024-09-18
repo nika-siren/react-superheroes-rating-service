@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import SuperheroesList from './SuperheroesList';
+import SuperheroesList from '././components/SuperheroesList/SuperheroesList';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
