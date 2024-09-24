@@ -4,7 +4,7 @@ import StarRating from "../StarRating/StarRating";
 
 const Superhero = ({ superhero }) => {
   return (
-    <div id={superhero.id} className="superhero">
+    <div className="superhero">
       <img src={superhero.url} alt={superhero.name} />
       <h2>{superhero.name}</h2>
       <p><strong>Alter Ego:</strong> {superhero.alterego}</p>
